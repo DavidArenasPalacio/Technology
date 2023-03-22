@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology</title>
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <!-- NORMALIZE -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- STYLES -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container container-header">
+            <div class="hamburguer">
+                <a href="index.html" class="logo">
+                    <span class="logo__span">T</span>echnology
+                </a>
+                <div class="button">
+                    <i class="fas fa-bars button__icon" id="button"></i>
+                </div>
+            </div>
+            <nav class="nav">
+                <a href="index.html" class="nav__enlace ">About</a>
+                <a href="reviews.html" class="nav__enlace text-white">Reviews</a>
+                <a href="blog.html" class="nav__enlace">Blog</a>
+                <a href="login.html" class="nav__enlace">Login</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="container reviews">
+        <div>
+            <h1 class="text-center reviews__title">Our reviews</h1>
+
+            <div class="reviews__underline"></div>
+        </div>
+        <article class="reviews__container">
+            <div class="reviews__container-img">
+             <!--    <img src="img/person-2.jpg" alt="" class="reviews__img" alt="imagen person" id="person-img"> -->
+            </div>
+            <h4 id="author" class="reviews__author">Jeison</h4>
+            <div class="reviews__info">
+                <p class="reviews__text"></p>
+            </div>
+            <div class="reviews__arrow">
+                <button class="reviews__left">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="reviews__right">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </article>
+    </main>
+
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__info">
+                <h3 class="footer__title">Got a question, problem, or feedback?</h3>
+                <p class="footer_parrafo">Email us <span class="footer__span">and we’ll get back to you as soon as
+                        possible.</span></p>
+            </div>
+            <div class="footer__logo">
+                <p class="footer__text">t</p>
+            </div>
+            <div class="footer__copy">
+                <p class="footer__copy-text">David Arenas Palacio - All rights reserved</p>
+            </div>
+            <div class="footer__correo">
+                <p class="footer__email">support@technews.io <span class="footer__span"> |</span> Privacy Policy and
+                    Terms of Service</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="js/reviews.js"></script>
+</body>
+
+</html>
